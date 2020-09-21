@@ -17,7 +17,6 @@ class Dog
   
   def self.print_all
    puts @@all.collect {|value| value.name} 
-   binding.pry
   end
   def save
      @@all << self 
