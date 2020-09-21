@@ -18,8 +18,9 @@ class Dog
   def self.print_all
   @@all.collect do |value|
     value.name
+    @@all 
   end 
-  puts @@all 
+ 
  
   end
   def save
